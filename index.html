@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hishab Calculator</title>
+<link rel="icon" href="calculator-concept-illustration_114360-1194.avif">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+<script>
+    function one(){
+        document.getElementById("display")." ";
+    }
+</script>
+<body>
+    <div class="first_calculate">
+        <div class="second_calculate">
+<h1><span style="color: rgb(255, 255, 255); font-size: 25px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">HISHAB</span> जोड़ो</h1>
+<div class="second_box_calculate">
+
+</div>
+<form action="" class="form">
+<input type="text" placeholder="0" class="numbers" id="display" name="answer">
+        </div>
+
+        <div class="third_calculate">
+            <i class="fa-solid fa-box-archive" style="color: white;" onclick="one();"></i>
+        </div>
+        <div class="forth_calculate">
+<div class="forth_button_calculate">
+   <div>
+    <input type="button" value="AC" onclick="form.answer.value =' ' " >
+    <input type="button" value="DE" onclick="form.answer.value = form.answer.value.toString().slice(0,-1)">
+    <input type="button" value="." onclick="form.answer.value +='.' ">
+    <input type="button" value="/" onclick="form.answer.value +='/' ">
+   </div>
+    <div>
+        <input type="button" value="7" onclick="form.answer.value += '7' ">
+        <input type="button" value="8" onclick="form.answer.value += '8' ">
+        <input type="button" value="9" onclick="form.answer.value += '9' ">
+        <input type="button" value="*" onclick="form.answer.value += '*' ">
+    </div>
+    <div>
+        <input type="button" value="4" onclick="form.answer.value += '4' ">
+        <input type="button" value="5" onclick="form.answer.value += '5' ">
+        <input type="button" value="6" onclick="form.answer.value += '6' ">
+        <input type="button" value="-" onclick="form.answer.value += '-' ">
+    </div>
+<div>
+    <input type="button" value="1" onclick="form.answer.value += '1' ">
+    <input type="button" value="2" onclick="form.answer.value += '2' ">
+    <input type="button" value="3" onclick="form.answer.value += '3' ">
+    <input type="button" value="+" onclick="form.answer.value += '+' ">
+</div>
+<div>
+    <input type="button" value="00" onclick="form.answer.value += '00' ">
+    <input type="button" value="0" onclick="form.answer.value += '0' ">
+    <input type="button" value="=" class="equal" style="width: 140px;" onclick="form.answer.value =eval(form.answer.value) ">
+</div>
+</div>
+        </div>
+    </form>
+    </div>
+   
+
+    
+</body>
+<script>
+    function pick(val){
+        document.getElementById("display").value;
+    }
+    
+    
+    </script>
+</html>
